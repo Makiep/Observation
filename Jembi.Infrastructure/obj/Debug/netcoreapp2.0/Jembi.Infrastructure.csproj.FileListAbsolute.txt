@@ -1,0 +1,12 @@
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.csprojAssemblyReference.cache
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.AssemblyInfoInputs.cache
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.AssemblyInfo.cs
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\bin\Debug\netcoreapp2.0\Jembi.Infrastructure.deps.json
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\bin\Debug\netcoreapp2.0\Jembi.Infrastructure.dll
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\bin\Debug\netcoreapp2.0\Jembi.Infrastructure.pdb
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\bin\Debug\netcoreapp2.0\Jembi.Core.dll
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\bin\Debug\netcoreapp2.0\Jembi.Core.pdb
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.csproj.CopyComplete
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.dll
+C:\Dev\Observation-master\Observation-master\Jembi.Infrastructure\obj\Debug\netcoreapp2.0\Jembi.Infrastructure.pdb

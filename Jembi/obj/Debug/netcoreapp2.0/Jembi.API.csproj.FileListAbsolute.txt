@@ -1,0 +1,16 @@
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.csprojAssemblyReference.cache
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.csproj.CoreCompileInputs.cache
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.AssemblyInfoInputs.cache
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.AssemblyInfo.cs
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.Core.dll
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.Infrastructure.dll
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.API.deps.json
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.API.runtimeconfig.json
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.API.runtimeconfig.dev.json
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.API.dll
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.API.pdb
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.Infrastructure.pdb
+C:\Dev\Observation-master\Observation-master\Jembi\bin\Debug\netcoreapp2.0\Jembi.Core.pdb
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.csproj.CopyComplete
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.dll
+C:\Dev\Observation-master\Observation-master\Jembi\obj\Debug\netcoreapp2.0\Jembi.API.pdb
