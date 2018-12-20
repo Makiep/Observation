@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Repository\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Repository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Train.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hl7.Fhir.DSTU2" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.3" />
+    <PackageReference Include="RestSharp" Version="106.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Fhir.Metrics">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Fhir.Metrics.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.DSTU2.Core">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Hl7.Fhir.DSTU2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.Support">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Hl7.Fhir.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.FhirPath">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Hl7.FhirPath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

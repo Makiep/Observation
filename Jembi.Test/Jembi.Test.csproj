@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
+    <PackageReference Include="Moq" Version="4.8.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jembi.Core\Jembi.Core.csproj" />
+    <ProjectReference Include="..\Jembi.Infrastructure\Jembi.Infrastructure.csproj" />
+    <ProjectReference Include="..\Jembi\Jembi.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hl7.Fhir.DSTU2.Core">
+      <HintPath>..\..\..\..\..\..\Dev\spark-master\spark-master\src\Spark.Engine\bin\Debug\Hl7.Fhir.DSTU2.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

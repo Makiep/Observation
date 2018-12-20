@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\Jembi\**" />
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="Migrations\Jembi\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="Migrations\Jembi\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="Migrations\Jembi\**" />
+    <None Remove="wwwroot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\DataController.cs" />
+    <Compile Remove="Controllers\PredictionController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jembi.Infrastructure\Jembi.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Fhir.Metrics">
+      <HintPath>..\..\..\..\..\..\Dev\spark-master\spark-master\src\Spark.Engine\bin\Debug\Fhir.Metrics.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.DSTU2.Core">
+      <HintPath>..\..\..\..\..\..\Dev\spark-master\spark-master\src\Spark.Engine\bin\Debug\Hl7.Fhir.DSTU2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.Support">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Hl7.Fhir.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.FhirPath">
+      <HintPath>..\..\..\..\..\..\Dev\spark-master\spark-master\src\Spark.Engine\bin\Debug\Hl7.FhirPath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

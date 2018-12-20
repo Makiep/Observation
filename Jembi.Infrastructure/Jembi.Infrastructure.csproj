@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jembi.Core\Jembi.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Fhir.Metrics">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Fhir.Metrics.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.DSTU2.Core">
+      <HintPath>..\..\..\..\..\..\Dev\spark-master\spark-master\src\Spark.Engine\bin\Debug\Hl7.Fhir.DSTU2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.Support">
+      <HintPath>..\..\..\..\..\..\Dev\spark-master\spark-master\src\Spark.Engine\bin\Debug\Hl7.Fhir.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.FhirPath">
+      <HintPath>..\..\..\..\..\..\Dev\GembiTest\JembiServer.Core\bin\Debug\netcoreapp2.1\Hl7.FhirPath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
